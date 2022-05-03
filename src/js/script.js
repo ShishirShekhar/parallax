@@ -24,7 +24,7 @@ function start() {
     var pass = prompt("Enter your full name");
     pass = pass.toLowerCase();
     
-    if (pass == "nisha kumari") {
+    if (pass == "nisha kumari" || pass == "nisha singh") {
         let logo = 'Nisha';
         let text = 'tsuki ga kirei desu ne';
         let secAbout = 'Feelings Without a Name'
