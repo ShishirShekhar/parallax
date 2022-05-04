@@ -28,26 +28,31 @@ function start() {
         let logo = 'Nisha';
         let text = 'tsuki ga kirei desu ne';
         let secAbout = 'Feelings Without a Name'
-        let para = `
-        That night we lay on the dark brown carpet <br>
-        and you told me that expected thing <br>
-        I closed my eyes and tried to do <br>
-        the soft and mutable equation <br>
-        of what we do and what we promise to do <br>
-        and I just couldn't think for the sound <br>
-        of strange doors opening and old ones closing. <br>
-        You know I'm not good with figures <br>
-        even when the world is still and calm. <br>
-        But now I will answer you as best I can: <br>
-        and the feeling was without a name <br>
-        like the true colour of light <br>
-        before it is fractured and labelled <br>
-        containing simply everything <br>
-        in the known and unknown spectra of my life.`
+        let para = `<p>
+        Maybe it's the way you say my name <br>
+        Maybe it's the way you play your game <br>
+        But it's so good, I've never known anybody like you <br>
+        But it's so good, I've never dreamed of nobody like you <br>
+        <br>
+        And I've heard of a love that comes once in a lifetime <br>
+        And I'm pretty sure that you are that love of mine <br>
+        <br>
+        'Cause I'm in a field of dandelions <br>
+        Wishing on every one that you'll be mine, mine <br>
+        And I see forever in your eyes <br>
+        I feel okay when I see you smile, smile <br>
+        Wishing on dandelions all of the time <br>
+        Praying to God that one day you'll be mine <br>
+        Wishing on dandelions all of the time, all of the time <br>
+        </p>
+        
+        <div id="song">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2eAvDnpXP5W0cVtiI0PUxV?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>`
     
         document.getElementById('logo').innerHTML = logo;
         document.getElementById('text').innerHTML = text;
-        document.getElementById('para').innerHTML = para;
         document.getElementById('secAbout').innerHTML = secAbout;
+        document.getElementById('para').innerHTML = para;
     }
 }
