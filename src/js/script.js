@@ -29,25 +29,24 @@ function start() {
         let text = 'tsuki ga kirei desu ne';
         let secAbout = 'Feelings Without a Name'
         let para = `<p>
-        Maybe it's the way you say my name <br>
-        Maybe it's the way you play your game <br>
-        But it's so good, I've never known anybody like you <br>
-        But it's so good, I've never dreamed of nobody like you <br>
+        If you're feeling like you need a little bit of company <br>
+        You met me at the perfect time <br>
         <br>
-        And I've heard of a love that comes once in a lifetime <br>
-        And I'm pretty sure that you are that love of mine <br>
+        You want me, I want you, baby <br>
+        My sugarboo, I'm levitating <br>
+        The Milky Way, we're renegading <br>
+        Yeah, yeah, yeah, yeah, yeah <br>
         <br>
-        'Cause I'm in a field of dandelions <br>
-        Wishing on every one that you'll be mine, mine <br>
-        And I see forever in your eyes <br>
-        I feel okay when I see you smile, smile <br>
-        Wishing on dandelions all of the time <br>
-        Praying to God that one day you'll be mine <br>
-        Wishing on dandelions all of the time, all of the time <br>
+        I got you, moonlight, you're my starlight <br>
+        I need you all night, come on, dance with me <br>
+        I'm levitating <br>
+        You, moonlight, you're my starlight (you're the moonlight) <br>
+        I need you all night, come on, dance with me <br>
+        I'm levitating <br>
         </p>
         
         <div id="song">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2eAvDnpXP5W0cVtiI0PUxV?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/39LLxExYz6ewLAcYrzQQyP?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </div>`
     
         document.getElementById('logo').innerHTML = logo;
